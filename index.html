@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css" type="text/css"/>
+    </head>
+    <body>
+        <h1>Football Quiz</h1>
+        <form>
+            <fieldset>
+                <legend>Question 1</legend>
+                <label for="num-of-players">How many players are on the pitch at once?</label>
+                <input type="text" name="num-of-players"/>
+            </fieldset>
+            <fieldset>
+                <legend>Question 2</legend>
+                <label>The World Cup is played every ____ years?</label>
+                <div>
+                <input type="radio" id="choice1" value="2"/>
+                <label for="choice1">2</label>
+                <input type="radio" id="choice2" value="4"/>
+                <label for="choice2">4</label>
+                <input type="radio" id="choice3" value="5"/>
+                <label for="choice3">5</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Question 3</legend>
+                <label for="formation">Which are examples of a formation?</label>
+                <label for="">4-3-3</label>
+                <input type="checkbox" name="formation" value="4-3-3"/>
+                <label for="">4-4-1</label>
+                <input type="checkbox" name="formation" value="4-4-1"/>
+                <label for="">3-5-2</label>
+                <input type="checkbox" name="formation" value="3-5-2"/>
+            </fieldset>
+            <fieldset>
+                <legend>Question 4</legend>
+                <label for="beckham-position">What position did David Beckham play?</label>
+                <input type="text" name="beckham-position"/>
+            </fieldset>
+            <fieldset>
+                <legend>Question 5</legend>
+                <label for="milan-league">What league do AC Milan play in?</label>
+                <select name="leagues" id="milan-league">
+                    <option value="">--Please choose an option--</option>
+                    <option value="bundesliga">Bundesliga</option>
+                    <option value="la-liga">La Liga</option>
+                    <option value="ligue-1">Ligue 1</option>
+                    <option value="premier-league">Premier League</option>
+                    <option value="seria-a">Seria A</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Bonus Question</legend>
+                <label for="goat">Who is the GOAT?</label>
+                <textarea placeholder="GOAT" rows="5" name="goat"></textarea>
+            </fieldset>
+            <input type="submit" value="Submit" />
+        </form>
+    </body>
+</html>
